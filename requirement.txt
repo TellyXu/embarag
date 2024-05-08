@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+PyMuPDF
+nltk
+tqdm
+langchain_openai
+langchain_community
+openai
+starlette
+python-multipart
+faiss-cpu
+ffmpeg
