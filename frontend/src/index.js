@@ -51,23 +51,23 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/about-us" element={<AboutUs />} />
-      <Route path="/blog-post" element={<BlogPost />} />
-      <Route path="/blog-posts" element={<BlogPosts />} />
-      <Route path="/contact-us" element={<ContactUs />} />
-      <Route path="/e-commerce" element={<Ecommerce />} />
-      <Route path="/index" element={<Index />} />
-      <Route path="/landing-page" element={<LandingPage />} />
-      <Route path="/login-page" element={<LoginPage />} />
-      <Route path="/nucleo-icons" element={<NucleoIcons />} />
+      <Route path="/about-us" element={<Presentation />} />
+      <Route path="/blog-post" element={<Presentation />} />
+      <Route path="/blog-posts" element={<Presentation />} />
+      <Route path="/contact-us" element={<Presentation />} />
+      <Route path="/e-commerce" element={<Presentation />} />
+      <Route path="/index" element={<Presentation />} />
+      <Route path="/landing-page" element={<Presentation />} />
+      <Route path="/login-page" element={<Presentation />} />
+      <Route path="/nucleo-icons" element={<Presentation />} />
       <Route path="/presentation" element={<Presentation />} />
-      <Route path="/pricing" element={<Pricing />} />
-      <Route path="/product-page" element={<ProductPage />} />
-      <Route path="/profile-page" element={<ProfilePage />} />
-      <Route path="/sections" element={<Sections />} />
-      <Route path="/sign-up" element={<SignupPage />} />
-      <Route path="/test" element={<Test />} />
-      <Route path="/tool" element={<Tool />} />
+      <Route path="/pricing" element={<Presentation />} />
+      <Route path="/product-page" element={<Presentation />} />
+      <Route path="/profile-page" element={<Presentation />} />
+      <Route path="/sections" element={<Presentation />} />
+      <Route path="/sign-up" element={<Presentation />} />
+      <Route path="/test" element={<Presentation />} />
+      <Route path="/tool" element={<Presentation />} />
       <Route path="/toolfile" element={<Tool_File />} />
       <Route path="/rag" element={<Rag />} />
       <Route path="*" element={<Navigate to="/presentation" replace />} />
