@@ -8,5 +8,3 @@ start /B cmd /c "cd backend && python main.py > nul 2>&1"
 
 echo Starting frontend application...
 start /B cmd /c "cd frontend && npm install > nul 2>&1 && npm start > nul 2>&1"
-
-pause
