@@ -1,5 +1,14 @@
+# how to install and launch
+
 run 1.cmd
 
+
+
+
+
+my private key for testing
+
+DO NOT SHARE
 
 sk-proj-clZJNizl541hmVws0N
 
