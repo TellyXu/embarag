@@ -10,3 +10,4 @@ starlette
 python-multipart
 faiss-cpu
 ffmpeg
+fitz
